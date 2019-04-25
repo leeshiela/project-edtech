@@ -1,0 +1,31 @@
+body {
+    background-color: #EC7063;
+}
+
+/* Horizontal Navigation Bar Styles*/
+#horizontalNav ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    font-size: 18px; 
+    color: white; 
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+
+/*General Fonts*/
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: #FFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
