@@ -4,6 +4,7 @@ body {
 
 /* Horizontal Navigation Bar Styles*/
 #horizontalNav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     text-decoration: none; 
@@ -13,6 +14,25 @@ body {
     overflow: hidden;
   }
 
+    #horizontalNav li {
+    float: right;
+  }
+
+    #horizontalNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ #horizontalNav li a:hover {
+    background-color: #111;
+  }
+
+header {
+    background-image: url(/img/portraits.jpg);
+}
 
 
 /*General Fonts*/
