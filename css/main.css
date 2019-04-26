@@ -3,6 +3,14 @@ body {
 }
 
 /* Horizontal Navigation Bar Styles*/
+#horizontalNav {
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+
 #horizontalNav ul {
     list-style-type: none;
     margin: 0;
@@ -16,6 +24,7 @@ body {
 
     #horizontalNav li {
     float: right;
+    padding: 5px;
   }
 
     #horizontalNav li a {
@@ -30,15 +39,32 @@ body {
     background-color: #111;
   }
 
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
 header {
-    background-image: url(/img/portraits.jpg);
+    background-image: url("/img/portraits.jpg");
   /*--Parallax Scrolling Effect--*/
   height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- 
+  padding-top: 40px;
  }
 
 /*Quotes Introduction Section */
