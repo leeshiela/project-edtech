@@ -2,6 +2,15 @@ body {
     background-color: #EC7063;
 }
 
+#logo img {
+  padding-top: 60px;
+  max-width: 10%;
+  max-height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Horizontal Navigation Bar Styles*/
 #horizontalNav {
   position: fixed; /* Make it stick/fixed */
@@ -57,7 +66,7 @@ body {
 }
 
 header {
-    background-image: url("/img/portraits.jpg");
+  background-image: url("../img/portraits.jpg");
   /*--Parallax Scrolling Effect--*/
   height: 500px;
   background-attachment: fixed;
@@ -73,6 +82,21 @@ header {
     flex-direction: row;
 }
 
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+footer img {
+  max-width: 10%;
+  max-height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /*General Fonts*/
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -87,7 +111,3 @@ h2 {
     text-align: center;
 }
 
-footer {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
