@@ -111,3 +111,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
